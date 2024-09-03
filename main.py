@@ -7,7 +7,7 @@ app = FastAPI()
 
 @app.get("/generate/{item_length}")
 async def gen_password(item_length: int):
-    scope = string.ascii_letters + string.digits
+    scope = string.ascii_letters + string.digits + string.ascii_uppercase + string.punctuation
     generate_pass = ''.join([random.choice(scope) for n in range(item_length)])
 
     return{"Generated Password": generate_pass}
