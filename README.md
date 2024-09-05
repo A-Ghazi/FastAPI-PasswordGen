@@ -12,7 +12,7 @@ This is a simple Password Generator API built with FastAPI. It allows you to gen
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/password-generator-api.git
+    git clone https://github.com/A-Ghazi/password-generator-api.git
     cd password-generator-api
     ```
 
